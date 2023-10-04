@@ -21,7 +21,7 @@
 body{
   background-color: whitesmoke;/**/
 }
-p{
+p, h2{
     font-family: 'Montserrat', sans-serif;
 }
 .container{
@@ -145,6 +145,61 @@ p{
     padding-top: 10px;
     text-align: center;
     display: block;
+}
+/*Aqui acaba el codigo para el about me*/
+/*Codigo blog-specific*/
+.category-row{
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  height: 300px;
+  width: 1200px;
+  /*background-color: aqua;/**/
+  margin-bottom: 50px;
+  display: flex;
+}
+.category-col{
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  height: 300px;
+  width: 350px;
+  margin-left: auto;
+  /*background-color: red;/**/
+  margin-bottom: 50px;
+  display: flex;
+}
+.category-link{
+  text-decoration: none;
+  text-align: center;
+}
+.category-img{
+  height:300px;
+  width: 350px;
+}
+.category-title{
+  /***/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-column{
+  flex-direction: column;
+}
+.flex-row{
+  flex-direction: row;
 }
 .to-left{
     float: left;
