@@ -30,12 +30,12 @@ p{
     position: fixed; /*It stays in the same place*/ 
     height: 100%;
     display: inline-block;
-    background-image: linear-gradient(to right, rgba(250, 230, 230, 1), rgba(247, 241, 241, 0.753));
+    background-image: linear-gradient(to right, rgba(250, 230, 230, 1), rgba(247, 241, 241, 0.753));/**/
 }
 .center-sidebar{
     overflow: scroll;
     height: 100%;
-    background-color: rgba(247, 241, 241, 0.753);
+    background-color: rgba(247, 241, 241, 0.753);/**/
 }
 .profile{
     width: 100%;
@@ -47,6 +47,16 @@ p{
     height: 80%;
     border-radius: 100%;
     margin: auto;
+}
+.main-photo{
+  border-radius: 10px;
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-paragraph{
+  display: inline-block;
+  vertical-align: center;
 }
 .bio{
     display: flex;
@@ -68,8 +78,20 @@ p{
     text-decoration: none;
 }
 .bio-button{
+  opacity: 0.6;
   height: 70px;
   width: 150px;
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 15px 15px 10px rgba(0,0,0,0.15);
+}
+.bio-button:hover{
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
 .index-bar{
     padding-left: 6%;
