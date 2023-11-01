@@ -19,9 +19,10 @@
   }
 }
 body{
-  background-color: whitesmoke;/**/
+  margin: 0;
+  background-color: aliceblue;
 }
-p, h2{
+p,h1,h2{
     font-family: 'Montserrat', sans-serif;
 }
 .container{
@@ -34,7 +35,6 @@ p, h2{
     height: 100%;
     display: inline-block;
     background-color: rgba(227, 241, 241, 0.753);/**/
-    border-radius: 20px;
 }
 .center-sidebar{
     overflow: scroll;
@@ -148,6 +148,10 @@ p, h2{
 }
 /*Aqui acaba el codigo para el about me*/
 /*Codigo blog-specific*/
+
+
+
+
 .category-row{
   background-size: cover;
   background-repeat:no-repeat;
@@ -176,21 +180,48 @@ p, h2{
 .category-img{
   height:300px;
   width: 350px;
+  border-radius: 5%;
 }
 .category-title{
   /***/
 }
+.dark-mode-button{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  margin-top: 40px;
+}
+.blog-container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
+/*DARK MODE STUFF*/
+.shadow-dark {
+  background-color: linear-gradient(145deg, #23282c, #1e2125);
+  box-shadow: 17px 17px 23px #1a1d20,
+    -17px -17px 23px #282d32, inset 5px 5px 4px #1e2226,
+    inset -5px -5px 4px #24282c;
+}
 
+.shadow-light {
+  box-shadow: 7px 7px 15px -10px #bbcfda, -4px -4px 13px #ffffff,
+    inset 7px 7px 3px rgba(209, 217, 230, 0.35),
+    inset -11px -11px 3px rgba(255, 255, 255, 0.3)
+}
 
-
-
-
-
-
-
-
-
+.dark-mode { /*General para el comienzo*/
+  background-color: #212121;
+  color: whitesmoke;
+}
+.dark-mode-sidebar { /*General para el comienzo*/
+  background-color: #212529;
+}
+.dark-mode-text {
+  color: mediumpurple;
+}
 
 
 
@@ -206,6 +237,9 @@ p, h2{
 }
 .to-right{
     float: right;
+}
+.to-top{
+  float: top;
 }
 .to-bottom{
     position: absolute;
