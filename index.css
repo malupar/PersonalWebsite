@@ -221,6 +221,7 @@ p,h1,h2{
 }
 .dark-mode-text {
   color: mediumpurple;
+  font-weight: bold;
 }
 
 
