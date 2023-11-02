@@ -80,6 +80,9 @@ p,h1,h2{
 .bio-link{
     text-decoration: none;
 }
+.bio-text{
+  font-weight: bold;
+}
 .bio-button{
   opacity: 0.6;
   height: 70px;
@@ -105,7 +108,7 @@ p,h1,h2{
 }
 .main{
     height: 100%;
-    width: 70%;
+    width: 100%;
     padding-top: 20px;
     padding-left: 2%;
     padding-right: 2%;
@@ -184,6 +187,17 @@ p,h1,h2{
 }
 .category-title{
   /***/
+}
+
+details summary::marker {
+  content: "⮞ ";
+  color: indigo;
+  font-size: 1.5rem;
+}
+
+/* Flecha en contenido desplegado */
+details[open] summary::marker {
+  content: "⮟ ";
 }
 .dark-mode-button{
   margin-left: 40%;
